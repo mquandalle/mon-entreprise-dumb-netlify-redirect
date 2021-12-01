@@ -1,0 +1,8 @@
+# La configuration Netlify est cassée et l'hebergeur ne fournit les bons
+# certificats pour le site en production. Pour essayer de contourner le problème
+# on créer un nouveau "site" qui se contente de faire une redirection
+# transparante.
+[[redirects]]
+  from = "*"
+  to = "https://1832--mon-entreprise.netlify.app/:splat"
+  status = 200
