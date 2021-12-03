@@ -15,7 +15,7 @@
   to = "https://mon-entreprise.urssaf.fr/s%C3%A9curit%C3%A9-sociale/salari%C3%A9"
   status = 301
 
-## Old iframe adress
+# Old iframe adress
 [[redirects]]
   from = "https://mon-entreprise.fr/modules/v2/dist/simulateur.js"
   to = "https://mon-entreprise.fr/simulateur-iframe-integration.js"
@@ -33,5 +33,3 @@
   to = "https://1832--mon-entreprise.netlify.app/:splat"
   status = 200
  
-[[redirects]]
-  from = "
