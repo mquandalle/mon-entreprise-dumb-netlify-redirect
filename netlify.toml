@@ -7,13 +7,12 @@
   from = "https://mycompanyinfrance.fr/*"
   to = "https://1832-en--mon-entreprise.netlify.app/:splat"
   status = 200
-
-
-# Embauche redirection settings
+  
+## Twemoji proxy for client privacy #1219
 [[redirects]]
-  from = "https://mon-entreprise.fr/simulation"
-  to = "https://mon-entreprise.urssaf.fr/s%C3%A9curit%C3%A9-sociale/salari%C3%A9"
-  status = 301
+  from = "/twemoji/*"
+  to = "https://twemoji.maxcdn.com/:splat"
+  status = 200
 
 # Old iframe adress
 [[redirects]]
@@ -25,7 +24,6 @@
   from = "https://mon-entreprise.fr/dist/simulateur.js"
   to = "https://mon-entreprise.fr/simulateur-iframe-integration.js"
   status = 301
-
 
 
 [[redirects]]
