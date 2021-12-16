@@ -10,12 +10,6 @@
   
 
 [[redirects]]
-  from = "https://mon-entreprise.fr/*"
-  to = "https://mon-entreprise.urssaf.fr/:splat"
-  status = 301
-
-
-[[redirects]]
   from = "https://mon-entreprise.fr/modules/v2/dist/simulateur.js"
   to = "https://mon-entreprise.urssaf.fr/simulateur-iframe-integration.js"
   status = 301
@@ -25,6 +19,10 @@
   to = "https://mon-entreprise.urssaf.fr/simulateur-iframe-integration.js"
   status = 301
 
+[[redirects]]
+  from = "https://mon-entreprise.fr/*"
+  to = "https://mon-entreprise.urssaf.fr/:splat"
+  status = 301
 
 [[redirects]]
   from = "*"
