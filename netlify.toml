@@ -8,22 +8,22 @@
 [[redirects]]
   from = "https://mon-entreprise.fr/modules/v2/dist/simulateur.js"
   to = "https://2432--mon-entreprise.netlify.app/simulateur-iframe-integration.js"
-  status = 301
+  status = 302
 
 [[redirects]]
   from = "https://mon-entreprise.fr/dist/simulateur.js"
   to = "https://2432--mon-entreprise.netlify.app/simulateur-iframe-integration.js"
-  status = 301
+  status = 302
 
 [[redirects]]
   from = "https://mon-entreprise.fr/*"
   to = "https://2432--mon-entreprise.netlify.app/:splat"
-  status = 301
+  status = 302
   
 [[redirects]]
   from = "https://mycompanyinfrance.fr/*"
   to = "https://2432-en--mon-entreprise.netlify.app/:splat"
-  status = 301
+  status = 302
   
 [[redirects]]
   from = "https://mycompanyinfrance.urssaf.fr/*"
